@@ -20,5 +20,53 @@ nav ul {
 }
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.75rem;
+}
+.cards {
+  width: 23.4375rem;
+  height: 15rem;
+  position: relative;
+  background-image: url(../assets/images/bg-main-mobile.png);
+  padding: 24px;
+}
+.card {
+  width: 17.875rem;
+  height: 9.8125rem;
+  background-size: contain;
+}
+.backCard {
+  position: absolute;
+  right: 0.9375rem;
+  background-image: url(../assets/images/bg-card-back.png);
+}
+.frontCard {
+  position: absolute;
+  top: 3.125rem;
+  background-image: url(../assets/images/imggg.jpg);
+  background-repeat: no-repeat;
+}
+
+.form {
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 1.5rem;
+  gap: 1.25rem;
+}
+.expDateYcvc {
+  display: flex;
+  gap: 10px;
+}
+.expDate {
+  width: 4.5rem;
+}
+.monthYear {
+  width: 4.5rem;
+}
+.cvc {
+  width: 10.25rem;
+}
+.content {
+  width: 20.4375rem;
 }
